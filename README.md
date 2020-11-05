@@ -18,5 +18,5 @@ ansible-playbook playbook.yml -i inventory/prod  --ask-vault-password
 ```
 Plugins needed: Ansible, git
 Clone the repo and then run the ansible command as in jenkins file
-create the vault and ssh jey that is need to ssh into the instance
+create the vault and ssh key that is need to ssh into the instance
 ```
