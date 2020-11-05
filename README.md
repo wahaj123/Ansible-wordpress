@@ -14,3 +14,9 @@ In order for multi-envirnoment the the host and group_var should exist in the sa
 To deploy to specific enviroment
 ansible-playbook playbook.yml -i inventory/prod  --ask-vault-password
 ```
+### jenkins run ansible 
+```
+Plugins needed: Ansible, git
+Clone the repo and then run the ansible command as in jenkins file
+create the vault and ssh jey that is need to ssh into the instance
+```
