@@ -1,0 +1,2 @@
+wp_mysql_db: prod
+wp_mysql_user: prod
