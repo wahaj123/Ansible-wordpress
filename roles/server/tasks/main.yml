@@ -1,0 +1,47 @@
+---
+- name: Update apt cache
+  apt: update_cache=yes cache_valid_time=3600
+
+- name: Apache2
+  apt:
+    name: apache2 
+    state: present
+    update_cache: true
+
+- name: mysql server
+  apt:
+    name: mysql-server 
+    state: present
+    update_cache: true
+
+- name: php-mysql
+  apt:
+    name: php-mysql
+    state: present
+    update_cache: true
+
+- name: php
+  apt:
+    name: php
+    state: present
+    update_cache: true
+
+- name: libapache2-mod-php
+  apt:
+    name: libapache2-mod-php
+    state: present
+    update_cache: true
+
+# - name: php-mcrypt
+#   apt:
+#     name: php-mcrypt
+#     state: present
+#     update_cache: true
+
+- name: python
+  apt:
+    name: python3-mysqldb
+    state: present
+    update_cache: true
+
+
